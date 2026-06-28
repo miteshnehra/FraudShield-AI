@@ -1,0 +1,36 @@
+[app]
+name = "FraudShield AI"
+tagline = "Transaction risk intelligence"
+version = "1.0.0"
+environment = "development"
+demo_mode = true
+
+[paths]
+raw_data = "data/raw"
+processed_data = "data/processed"
+models = "models"
+reports = "reports"
+logs = "logs"
+
+[data]
+accepted_extensions = ["csv"]
+max_upload_mb = 200
+default_target_column = "Class"
+
+[model]
+random_state = 42
+test_size = 0.20
+default_threshold = 0.50
+cv_folds = 5
+max_categorical_values = 200
+
+[risk]
+low_max = 29
+medium_max = 59
+high_max = 79
+critical_max = 100
+
+[ui]
+page_title = "FraudShield AI"
+layout = "wide"
+sidebar_state = "expanded"

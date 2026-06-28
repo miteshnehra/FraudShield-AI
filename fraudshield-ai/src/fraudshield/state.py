@@ -1,0 +1,13 @@
+"""Shared Streamlit session-state keys."""
+
+ORIGINAL_DATA_KEY = "fraudshield_original_data"
+ACTIVE_DATA_KEY = "fraudshield_active_data"
+METADATA_KEY = "fraudshield_dataset_metadata"
+CLEANING_RESULT_KEY = "fraudshield_cleaning_result"
+MODEL_RESULT_KEY = "fraudshield_training_result"
+MODEL_CONFIG_KEY = "fraudshield_training_config"
+SCORING_RESULT_KEY = "fraudshield_scoring_result"
+LOCAL_EXPLANATION_KEY = "fraudshield_local_explanation"
+LOCAL_EXPLANATION_CONTEXT_KEY = "fraudshield_local_explanation_context"
+REPORT_PDF_KEY = "fraudshield_report_pdf"
+REPORT_CONTEXT_KEY = "fraudshield_report_context"

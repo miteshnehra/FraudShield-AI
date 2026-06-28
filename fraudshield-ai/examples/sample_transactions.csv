@@ -1,0 +1,17 @@
+transaction_id,timestamp,amount,merchant_category,country,device_type,customer_age,account_age_days,velocity_1h,is_foreign,Class
+T1001,2026-06-01 09:14:00,125.50,grocery,IN,mobile,28,640,1,0,0
+T1002,2026-06-01 09:22:00,4999.00,electronics,IN,desktop,34,1200,2,0,0
+T1003,2026-06-01 09:31:00,18999.00,electronics,US,mobile,23,45,8,1,1
+T1004,2026-06-01 10:02:00,75.00,transport,IN,mobile,41,2200,1,0,0
+T1005,2026-06-01 10:18:00,2200.00,fashion,IN,,30,800,3,0,0
+T1006,2026-06-01 10:47:00,35999.00,jewelry,AE,mobile,21,12,12,1,1
+T1007,2026-06-01 11:05:00,840.00,restaurant,IN,mobile,36,980,2,0,0
+T1008,2026-06-01 11:11:00,1550.00,travel,IN,desktop,45,3100,1,0,0
+T1008,2026-06-01 11:11:00,1550.00,travel,IN,desktop,45,3100,1,0,0
+T1009,2026-06-01 11:24:00,24999.00,gift_card,GB,mobile,19,5,15,1,1
+T1010,2026-06-01 11:52:00,,grocery,IN,mobile,52,4200,1,0,0
+T1011,2026-06-01 12:03:00,310.00,pharmacy,IN,mobile,63,5000,1,0,0
+T1012,2026-06-01 12:19:00,7900.00,software,,desktop,27,350,6,1,1
+T1013,2026-06-01 12:44:00,115.00,transport,IN,mobile,25,710,2,0,0
+T1014,2026-06-01 13:02:00,680.00,restaurant,IN,mobile,39,1700,1,0,0
+

@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.git
+.github
+.env
+logs/*
+models/*.joblib
+reports/*.pdf
+data/raw/*
+data/processed/*
+tmp
+

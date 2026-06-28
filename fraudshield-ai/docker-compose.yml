@@ -1,0 +1,14 @@
+services:
+  fraudshield:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      FRAUDSHIELD_ENV: development
+      FRAUDSHIELD_LOG_LEVEL: INFO
+    volumes:
+      - ./models:/app/models
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+    restart: unless-stopped
+
